@@ -26,69 +26,92 @@
                 </div>
             </div>
         </section>
-        <section class="cabecalho__menu">
-            <ul>
-                <li>Sobre nós</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+
+         <!--menu de nav-->
+         <div class="cabecalho__menu">
+            <ul class="menu__lista">
+                <li><a href="index.html#principal__sobre-nos">Sobre nós</a></li>
+                <li><a href="index.html#principal__projetos">Nossos Projetos</a></li>
+                <li><a href="index.html#principal__contato">Contato</a></li>
             </ul>
-        </section>
+        </div>
 
     </header>
 
     <!--PRINCIPAL-->
     <main class="principal">
         <!--Texto sobre nós-->
-        <section class="principal__sobre-nos">
+        <section class="principal__sobre-nos" id="principal__sobre-nos">
             <h1>Sobre nós</h1>
-            <p>cmjdfjpidjoprjgoperjgojrgojdpgjdg  rfrj orbgrgobgobrfgbjdfbgld vkdfj gjkdbgdofbgdfb gdj grom pom pom 
-                cmjdfjpidjoprjgoperjgojrgojdpgjdg  rfrj orbgrgobgobrfgbjdfbgld vkdfj gjkdbgdofbgdfb gdj grom pom pom 
-                cmjdfjpidjoprjgoperjgojrgojdpgjdg  rfrj orbgrgobgobrfgbjdfbgld vkdfj gjkdbgdofbgdfb gdj grom pom pom 
-                cmjdfjpidjoprjgoperjgojrgojdpgjdg  rfrj orbgrgobgobrfgbjdfbgld vkdfj gjkdbgdofbgdfb gdj grom pom pom 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, voluptatibus at. Sint quasi excepturi necessitatibus veniam vel amet ducimus nam aut 
+                nisi. Velit molestiae dolor tenetur voluptate odit repellendus, libero quos similique vel necessitatibus voluptates atque, porro aspernatur. Sunt 
+                consectetur, amet et consequuntur inventore porro nam ad magnam ducimus optio quibusdam animi nihil earum, laudantium aspernatur mollitia sed volu
+                ptate nemo atque, impedit laborum pariatur error nostrum reiciendis! Beatae consequatur sed dolore nulla cum libero est minus nemo eveniet explicabo 
+                aspernatur et, id accusamus ea alias dicta ducimus reiciendis. Quasi dicta a sequi labore earum architecto error dignissimos aut nemo minima.
             </p>
         </section>
+
+
         <!--Espaço de projetos-->
-        <section class="principal__projetos">
+        <section class="principal__projetos" id="principal__projetos">
             <!--Projetos em destaque-->
             <div class="principal__projetos__destaques"> 
                 <h2>Destaques</h2>
                 <div class="principal__projetos__destaques-projeto01">
-                    <p>Nome Projeto</p>
-                    <p>Tecnologias</p>
+                    <h3>Nome Projeto</h3>
+                    <h4>Tecnologias</h4>
                 </div>
             </div>
             <!--Demais projetos-->
             <div class="principal__projetos__todos">
                 <h2>Todos Projetos</h2>
                 <div class="principal__projetos__todos-projeto01">
-                    <p>Nome Projeto</p>
-                    <p>Tecnologias</p>
+                    <h3>Nome Projeto</h3>
+                    <h4>Tecnologias</h4>
                 </div>
             </div>
         </section>
+
         <!--Contato-->
-        <section class="principal__contato">
-            <div class="principal__contato__campo">
-                <p>Nome</p>
-                <input>
-            </div>
-            <div class="principal__contato__campo">
-                <p>Email</p>
-                <input>
-            </div>
-            <div class="principal__contato__campo">
-                <p>Telefone</p>
-                <input>
-            </div>
-            <div class="principal__contato__campo">
-                <p>Assunto</p>
-                <input>
-            </div>
-            <div class="principal__contato__campo">
-                <a href="#">Enviar Mensagem</a>
+        <section class="principal__contato" id="principal__contato">
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome</label>
+                        </div>
+
+                        <br>
+
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelInput">E-mail</label>
+                        </div>
+
+                        <br>
+
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>    
+
+                        <br>   
+                        
+                        <p>Mensagem:</p>
+                        
+                        <textarea class="inputUserbox" name="detalhes" id="detalhes" cols="30" rows="7" maxlength="500">Escreva sua mensagem aqui...</textarea>
+
+                        <input type="submit" value="Enviar" name="submit" id="submit">
+                        
+                    </fieldset>
+                </form>
             </div>
         </section>
+        
     </main>
+
     <!--RODAPÉ-->
     <footer class="rodape">
         <!--Icones do rodapé-->
