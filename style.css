@@ -8,3 +8,41 @@ body {
     background-color: #130E4A;
     color: #F7EBFF;
 }
+
+.cabecalho {
+    background-color: #130E4A;
+}
+
+/*Botão muda cor da tela*/
+.cabecalho__opcoes__modo {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 0 0 2.5px 0 #FFFFFF;
+    cursor: pointer;
+    background-color: #130E4A;
+}
+
+.cabecalho__opcoes__modo__ponto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8257E6;
+    transition: left 1s;
+}
+
+.cabecalho__opcoes__modo__ponto-move {
+    left: calc(100% - 40px);
+}
+
+.dark {
+    background-color: #FFFFFF;
+}
+
+.menu__lista a{
+    text-decoration: none;
+}
