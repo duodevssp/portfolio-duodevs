@@ -56,6 +56,26 @@
     .principal__sobre-nos {
 
     }
+
+    .principal__titulo {
+        margin: 120px 0 0 70px;
+        padding: 2% 1% 1% 1%;
+        width: 275px;
+        height: 54px;
+        text-align: center;
+        background-color: #080120;
+        border-radius: 10px;
+    }
+
+    .principal__sobre-nos__texto {
+        width: 750px;
+        padding: 5% 0 5% 5%;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
     
     .principal__contato {
         display: flex;
