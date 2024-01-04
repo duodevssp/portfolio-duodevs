@@ -16,8 +16,8 @@ body {
 /*Botão muda cor da tela*/
 .cabecalho__opcoes__modo {
     position: relative;
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     border-radius: 25px;
     box-shadow: 0 0 2.5px 0 #FFFFFF;
     cursor: pointer;
@@ -28,7 +28,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40px;
+    width: 30px;
     height: 100%;
     border-radius: 50%;
     background-color: #8257E6;
@@ -36,7 +36,7 @@ body {
 }
 
 .cabecalho__opcoes__modo__ponto-move {
-    left: calc(100% - 40px);
+    left: calc(100% - 30px);
 }
 
 .dark {
