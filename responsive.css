@@ -11,14 +11,18 @@
     }
 
     .cabecalho__imagens__container {
+        width: 1000px;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
         justify-content: flex-end;
         gap: 35%;
         padding-right: 2%;
     }
-        
+    
+    .cabecalho__opcoes {
+        align-self: flex-end;
+    }
+
     .cabecalho__opcoes__3pontos {
         display: none;
     }
@@ -32,13 +36,25 @@
     }
     
     .menu__lista {
+        width: 900px;
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu__lista a {
+        font-size: 36px;
+        padding: 1% 0 0 0;
+    }
+
+    .menu__lista a:active {
+        background-color: #8257E6;
     }
 
     /*PRINCIPAL*/
     .principal__sobre-nos {
-        width: 728px;
+
     }
     
     .principal__contato {
