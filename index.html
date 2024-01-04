@@ -12,30 +12,31 @@
     <header class="cabecalho">
         <!--Imagens do topo e menu-->
         <section class="cabecalho__imagens">
-            <div>
+            <div class="cabecalho__imagens__banner">
                 <img src="assets/duodevs_banner.png">
             </div>
-            <div class="cabecalho__opcoes" >
-                <div class="cabecalho__opcoes__3pontos">
-                    <span class="cabecalho__opcoes__3pontos__ponto"></span>
-                    <span class="cabecalho__opcoes__3pontos__ponto"></span>
-                    <span class="cabecalho__opcoes__3pontos__ponto"></span>
+            <!--div para juntar os elementos para que seja possível usar flexbox-->
+            <div class="cabecalho__imagens__container">
+                <div class="cabecalho__opcoes" >
+                    <div class="cabecalho__opcoes__3pontos">
+                        <span class="cabecalho__opcoes__3pontos__ponto"></span>
+                        <span class="cabecalho__opcoes__3pontos__ponto"></span>
+                        <span class="cabecalho__opcoes__3pontos__ponto"></span>
+                    </div>
+                    <div class="cabecalho__opcoes__modo">
+                        <span></span>
+                    </div>
                 </div>
-                <div class="cabecalho__opcoes__modo">
-                    <span></span>
+                <!--menu de nav-->
+                <div class="cabecalho__menu">
+                    <ul class="menu__lista">
+                        <li><a href="index.html#principal__sobre-nos">Sobre nós</a></li>
+                        <li><a href="index.html#principal__projetos">Nossos Projetos</a></li>
+                        <li><a href="index.html#principal__contato">Contato</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
-
-         <!--menu de nav-->
-         <div class="cabecalho__menu">
-            <ul class="menu__lista">
-                <li><a href="index.html#principal__sobre-nos">Sobre nós</a></li>
-                <li><a href="index.html#principal__projetos">Nossos Projetos</a></li>
-                <li><a href="index.html#principal__contato">Contato</a></li>
-            </ul>
-        </div>
-
     </header>
 
     <!--PRINCIPAL-->
