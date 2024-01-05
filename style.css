@@ -41,6 +41,25 @@ body {
     color: #8257E6;
 }
 
+.menu__lista {
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__lista__nav {
+    padding: 5px 5px 0 5px;
+    border-radius: 10px 10px 0px 0px;
+    transition: background-color 0.3s;
+}
+
+.menu__lista__nav.active {
+    background-color: rgba(130, 87, 230, 1);
+}
+
 .menu__lista a{
     text-decoration: none;
     color: #F7EBFF;
@@ -49,6 +68,14 @@ body {
 /*CABEÇALHO*/
 .cabecalho {
     background-color: #130E4A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    z-index: 5;
 }
 
 .cabecalho__imagens {
@@ -57,14 +84,25 @@ body {
     align-items: center;
 }
 
+.cabecalho__opcoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
 .cabecalho__opcoes__3pontos {
     display: flex;
+    width: 80px;
+    height: 25px;
+    justify-content: space-between;
 }
 
 .cabecalho__opcoes__3pontos__ponto {
-    background-color: #8257E6;
-    width: 50px;
-    height: 50px;
+    border: 1px solid #8257E6;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
 .cabecalho__imagens__container {
@@ -72,12 +110,15 @@ body {
     flex-direction: column;
 }
 
-.cabecalho__opcoes {
-    display: flex;
-    flex-direction: row;
+/*PROJETOS*/
+.principal {
+    margin-top: 75%;
 }
 
-/*PROJETOS*/
+#principal__sobre-nos, #principal__projetos, #principal__contato {
+    scroll-margin-top: 100px;
+}
+
 .principal__projetos__destaques {
     display: flex;
     flex-direction: column;
@@ -132,7 +173,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 195px;
+    margin-bottom: 125px;
 }
 
 #principal__titulo__contato {
@@ -149,6 +190,10 @@ fieldset {
 .inputBox {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.inputUserbox {
+    margin: 5%;
 }
 
 #submit {
@@ -171,7 +216,7 @@ fieldset {
 }
 
 .rodape__icones {
-    width: 25%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

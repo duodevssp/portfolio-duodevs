@@ -2,25 +2,29 @@
     
     .cabecalho__imagens {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         border-bottom: 6px solid #8257E6;
     }
+
     .cabecalho__imagens__banner img {
         width: 300px;
-        height: 250px;
+        height: 175px;
     }
 
     .cabecalho__imagens__container {
         width: 1000px;
+        height: 178px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        gap: 35%;
-        padding-right: 2%;
+        gap: 25%;
     }
     
     .cabecalho__opcoes {
+        justify-content: flex-end;
         align-self: flex-end;
+        margin-right: 5%;
     }
 
     .cabecalho__opcoes__3pontos {
@@ -43,18 +47,24 @@
         justify-content: space-between;
     }
 
+    .menu__lista__nav {
+        padding: 25px 75px 0 50px;
+        border-radius: 10px 10px 0px 0px;
+        transition: background-color 0.3s;
+    }
+    
+    .menu__lista__nav.active {
+        background-color: rgba(130, 87, 230, 1);
+    }
+
     .menu__lista a {
         font-size: 36px;
         padding: 1% 0 0 0;
     }
 
-    .menu__lista a:active {
-        background-color: #8257E6;
-    }
-
     /*PRINCIPAL*/
-    .principal__sobre-nos {
-
+    .principal {
+        margin-top: 20%;
     }
 
     .principal__titulo {
@@ -85,6 +95,7 @@
 
     .principal__projetos__destaques-projeto {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
     }
 
@@ -131,7 +142,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 195px;
     }
 
     #principal__titulo__contato {
@@ -148,6 +158,14 @@
     .inputBox {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .labelInput {
+        text-align: left;
+    }
+
+    .assunto {
+        text-align: left;
     }
 
     #submit {
