@@ -5,12 +5,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
     background-color: #130E4A;
     color: #F7EBFF;
-}
-
-.cabecalho {
-    background-color: #130E4A;
 }
 
 /*Botão muda cor da tela*/
@@ -47,4 +44,135 @@ body {
 .menu__lista a{
     text-decoration: none;
     color: #F7EBFF;
+}
+
+/*CABEÇALHO*/
+.cabecalho {
+    background-color: #130E4A;
+}
+
+.cabecalho__imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho__opcoes__3pontos {
+    display: flex;
+}
+
+.cabecalho__opcoes__3pontos__ponto {
+    background-color: #8257E6;
+    width: 50px;
+    height: 50px;
+}
+
+.cabecalho__imagens__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__opcoes {
+    display: flex;
+    flex-direction: row;
+}
+
+/*PROJETOS*/
+.principal__projetos__destaques {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__projetos__destaques-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.principal__projetos__destaques-projeto-items {
+    background-color: #8257E694;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390.495px;
+    height: 164.167px;
+    margin-top: 3%;
+}
+
+.principal__projetos__destaques-projeto-items:hover {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    transition: 1s ease;
+}
+
+.principal__projetos__destaques-projeto-items-titulo {
+    background-color: #130E4A;
+    width: 199.232px;
+    height: 23.908px;
+    text-align: center;
+}
+
+.principal__projetos__destaques-projeto-items-subtitulo {
+    background-color: #8257E6;
+    width: 121.133px;
+    height: 23.908px;
+}
+
+/*Imagens fundo projetos*/
+#principal__projetos__destaques-projeto01 {
+    background-image: url(assets/pamonha-iris.jpeg);
+    background-size: 395px 165px;
+
+}
+
+/*CONTATO*/
+.principal__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 195px;
+}
+
+#principal__titulo__contato {
+    margin-left: 0;
+}
+
+fieldset {
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#submit {
+    width: 619.291px;
+    height: 62.992px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: #8257E6;
+}
+
+/*RODAPÉ*/
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #8257E6;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.rodape__icones {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
