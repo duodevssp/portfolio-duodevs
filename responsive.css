@@ -104,7 +104,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 390.495px;
+        width: 350px;
         height: 164.167px;
         margin-top: 3%;
     }
@@ -132,7 +132,7 @@
     /*Imagens fundo projetos*/
     #principal__projetos__destaques-projeto01 {
         background-image: url(assets/pamonha-iris.jpeg);
-        background-size: 395px 165px;
+        background-size: 355px 165px;
 
     }
     

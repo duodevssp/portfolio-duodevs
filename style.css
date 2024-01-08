@@ -36,9 +36,26 @@ body {
     left: calc(100% - 30px);
 }
 
+/*Alteração em elementos a partir da troca de tela*/
 .dark {
     background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.dark .principal__sobre-nos__texto {
+    color: black;
+}
+
+.dark .principal__projetos__destaques-projeto-items-subtitulo {
+    color: #130E4A;
+}
+
+.dark .inputBox, .dark .assunto, .dark .rodape__autor {
     color: #8257E6;
+}
+
+.dark .inputUser, .dark .inputUserbox {
+    border: 0.5px solid #8257E6;
 }
 
 .menu__lista {
@@ -192,8 +209,14 @@ fieldset {
     flex-direction: column-reverse;
 }
 
+.inputUser {
+    border: 0.5px solid #8257E6;
+    border-radius: 15px;
+}
+
 .inputUserbox {
     margin: 5%;
+    border: 0.5px solid #8257E6;
 }
 
 #submit {
