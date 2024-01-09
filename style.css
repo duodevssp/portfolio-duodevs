@@ -65,16 +65,17 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    background-color: #8257E6;
+}
+
+.menu__lista.none {
+    display: none;
 }
 
 .menu__lista__nav {
     padding: 5px 5px 0 5px;
     border-radius: 10px 10px 0px 0px;
     transition: background-color 0.3s;
-}
-
-.menu__lista__nav.active {
-    background-color: rgba(130, 87, 230, 1);
 }
 
 .menu__lista a{
@@ -130,6 +131,14 @@ body {
 /*PROJETOS*/
 .principal {
     margin-top: 75%;
+}
+
+.principal__sobre-nos {
+    background-image: url(assets/Slice\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1500px;
 }
 
 #principal__sobre-nos, #principal__projetos, #principal__contato {

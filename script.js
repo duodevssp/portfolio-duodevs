@@ -16,6 +16,14 @@ menuItems.forEach(function (menuItem) {
     });
 });
 
+/*Botão de esconder menu*/
+var opcao3Pontos = document.querySelector('.cabecalho__opcoes__3pontos');
+var menu = document.querySelector('.menu__lista')
+
+opcao3Pontos.addEventListener('click', function () {
+    menu.classList.toggle('none');
+})
+
 
 /*Envio Whatsapp*/
 var submit = document.querySelector('#submit');
